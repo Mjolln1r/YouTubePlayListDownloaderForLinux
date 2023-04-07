@@ -34,7 +34,7 @@ def download_playlist(playlist_url):
 
 
 def main():
-    url = input('Введите ссылку: ')
+    url = input('Введите ссылку/Enter url: ')
     if url.__contains__('playlist'):
         download_playlist(url)
     else:
